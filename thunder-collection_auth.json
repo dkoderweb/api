@@ -1,0 +1,73 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "auth",
+    "dateExported": "2023-12-17T14:03:34.155Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e9d642a0-afd9-4816-a53f-cc3fed7f6245",
+            "colId": "ffd0cab9-a9ab-4a50-a569-3e6d0137cccb",
+            "containerId": "",
+            "name": "http://127.0.0.1:8000/api/login",
+            "url": "http://127.0.0.1:8000/api/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-16T18:38:02.376Z",
+            "modified": "2023-12-16T18:38:02.376Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "dc@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "dc@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4d23d4a1-111c-4f8b-9fb5-ecdf5bdba9ab",
+            "colId": "ffd0cab9-a9ab-4a50-a569-3e6d0137cccb",
+            "containerId": "",
+            "name": "http://127.0.0.1:8000/api/register",
+            "url": "http://127.0.0.1:8000/api/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-16T18:38:20.533Z",
+            "modified": "2023-12-16T18:38:20.533Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Dharmesh"
+                    },
+                    {
+                        "name": "email",
+                        "value": "dc25@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "dc2@gmail.com"
+                    },
+                    {
+                        "name": "c_password",
+                        "value": "dc2@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}

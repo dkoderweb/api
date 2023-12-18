@@ -1,0 +1,3 @@
+INSERT INTO `salary_calculations` (`id`, `employee_id`, `calculation_date`, `calculated_month`, `month_salary`, `status`, `created_at`, `updated_at`) VALUES (NULL, '1', '2023-12-17', '2023-11', NULL, 'pending', '2023-12-17 13:12:57', '2023-12-17 13:12:57'), (NULL, '2', '2023-12-17', '2023-11', NULL, 'pending', '2023-12-17 13:12:57', '2023-12-17 13:12:57'), (NULL, '3', '2023-12-17', '2023-11', NULL, 'pending', '2023-12-17 13:12:57', '2023-12-17 13:12:57'), (NULL, '4', '2023-12-17', '2023-11', NULL, 'pending', '2023-12-17 13:12:57', '2023-12-17 13:12:57'), (NULL, '5', '2023-12-17', '2023-11', NULL, 'pending', '2023-12-17 13:12:57', '2023-12-17 13:12:57')
+
+
